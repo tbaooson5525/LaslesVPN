@@ -1,0 +1,48 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.75rem;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.navbar-action {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .navbar-action {
+        display: none;
+    }
+    .navbar-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 1.5rem 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar-menu {
+        display: block;
+    }
+}
