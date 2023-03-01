@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Rubik", sans-serif;
-    color: #0B132A;
+    font-family: var(--heading-ff);
+    color: var(--heading-color);
     font-weight: 500;
 }
 
@@ -30,4 +30,13 @@ h4 {
 h5 {
     font-size: 1.025rem;
     line-height: calc(30/18);
+}
+
+@media (max-width:1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
 }

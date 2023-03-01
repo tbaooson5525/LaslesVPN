@@ -1,0 +1,22 @@
+.shadow {
+    --shadow-bg:rgba(245, 56, 56, 0.35);
+    --shadow-opacity: 1;
+    --shadow-top-offset: 1.25rem;
+    --shadow-blur: 1.75rem;
+    position: relative;
+}
+
+.shadow::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    top: var(--shadow-top-offset);
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    background-color: var(--shadow-bg);
+    border-radius: inherit;
+    filter: blur(var(--shadow-blur));
+    opacity: var(--shadow-opacity);
+}

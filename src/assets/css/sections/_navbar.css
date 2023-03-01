@@ -27,9 +27,7 @@
 }
 
 @media (max-width: 1024px) {
-    .navbar-action {
-        display: none;
-    }
+    
     .navbar-nav {
         display: none;
     }
@@ -38,6 +36,9 @@
 @media (max-width: 768px) {
     .navbar-container {
         padding: 1.5rem 0;
+    }
+    .navbar-action {
+        display: none;
     }
 }
 
