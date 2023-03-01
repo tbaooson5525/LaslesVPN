@@ -1,27 +1,31 @@
 .btn {
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--body-color);
-    line-height: 1;
-    white-space: nowrap;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--body-color);
+  white-space: nowrap;
 }
 
 .btn-outline {
-    color: var(--primary-color);
-    padding: 0.875rem 1.75rem;
-    max-width: 9.375rem;
-    border-radius: var(--rounded-lg);
-    width: 100%;
-    border: 1px solid var(--primary-color);
-    text-align: center;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  padding: 0.875rem 1.75rem;
+  width: 100%;
+  max-width: 9.375rem;
+  border-radius: var(--rounded-lg);
+  border: 1px solid var(--primary-color);
+  text-align: center;
 }
 
 .btn-solid {
-    color: #fff;
-    background-color: var(--primary-color);
-    border-radius: var(--rounded);
-    padding: 1.125rem 2.25rem;
-    max-width: 15.625rem;
-    width: 100%;
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: var(--rounded);
+  padding: 1.125rem 2.25rem;
+  width: 100%;
+  max-width: 15.625rem;
 }
 
+.btn-full {
+  max-width: none;
+}

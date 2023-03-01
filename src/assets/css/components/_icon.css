@@ -1,28 +1,28 @@
 .icon {
-    --icon-size: 1.5rem;
-    display: block;
-    font-size: var(--icon-size);
-    height: var(--icon-size);
-    aspect-ratio: 1 / 1;
-    text-align: center;
+  --icon-size: 1.5rem;
+  display: block;
+  font-size: var(--icon-size);
+  height: var(--icon-size);
+  aspect-ratio: 1 / 1;
+  text-align: center;
 }
-  
+
 .icon-sm {
-    --icon-size: 1rem;
+  --icon-size: 1rem;
 }
-  
+
 .icon-lg {
-    --icon-size: 2rem;
+  --icon-size: 2rem;
 }
 
 .icon-wrapper {
-    display: inline-block;
-    color: var(--primary-color);
-    padding: 1rem;
-    border-radius: var(--rounded-full);
-    background-color: #FFECEC;
+  display: inline-block;
+  color: var(--primary-color);
+  padding: 1rem;
+  border-radius: var(--rounded-full);
+  background-color: #ffecec;
 }
 
 .icon-check {
-    color: #2FAB73;
+  color: #2fab73;
 }

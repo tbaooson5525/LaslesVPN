@@ -1,18 +1,17 @@
 .navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 0.625rem;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
 }
 
 .brand-img {
-    width: 2.25rem;
-    height: 2.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
 }
 
 .brand-title {
-    font-size: 1.25rem;
-    line-height: 1;
-    color: var(--heading-color);
-    font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--heading-color);
+  font-weight: 500;
 }
-
