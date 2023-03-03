@@ -25,4 +25,7 @@
 
   /* Layout */
   --column-gap: 1.875rem;
+
+  /* Transition */
+  --transition: all 0.3s ease;
 }

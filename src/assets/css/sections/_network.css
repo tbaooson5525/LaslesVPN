@@ -15,8 +15,8 @@
   display: flex;
   align-items: center;
   gap: var(--column-gap);
-  filter: grayscale(1);
-  opacity: 0.15;
+  filter: grayscale(0.8);
+  opacity: 0.2;
 }
 
 .network-brand {

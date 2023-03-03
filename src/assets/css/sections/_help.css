@@ -16,6 +16,10 @@
   gap: 1rem;
 }
 
+.help-container.shadow {
+  z-index: 0;
+}
+
 .help-heading {
   max-width: 25rem;
 }

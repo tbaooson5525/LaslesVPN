@@ -4,6 +4,7 @@
   line-height: 1;
   color: var(--body-color);
   white-space: nowrap;
+  transition: var(--transition);
 }
 
 .btn-outline {
@@ -17,6 +18,11 @@
   text-align: center;
 }
 
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
 .btn-solid {
   color: #fff;
   background-color: var(--primary-color);
@@ -24,6 +30,10 @@
   padding: 1.125rem 2.25rem;
   width: 100%;
   max-width: 15.625rem;
+}
+
+.btn-solid:hover {
+  opacity: 0.8;
 }
 
 .btn-full {
